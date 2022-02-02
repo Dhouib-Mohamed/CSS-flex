@@ -6,6 +6,7 @@ body {
 }
 header {
     background-image: url(./img/top_bg.png);
+    background-position: center;
     background-repeat: repeat-x;
     min-height: 50px;
 }
@@ -50,6 +51,7 @@ footer {
     background-image: url(./img/foot_bg.png);
     background-repeat: repeat-x;
     min-height: 214px;
+    background-position: center;
 }
 h1 ,h5 {
     color: brown;
@@ -78,4 +80,8 @@ ul li:hover{
 }
 .image {
     align-self: flex-end;
+}
+.image>h3 {
+    text-align: center;
+    margin: 5px;
 }
